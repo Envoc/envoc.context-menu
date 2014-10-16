@@ -1,0 +1,29 @@
+{
+  "generator-angularjs-gulp-library": {
+    "props": {
+      "author": {
+        "name": "Justin Obney",
+        "email": "justin@envoc.com"
+      },
+      "libraryName": {
+        "original": "envoc.context-menu",
+        "camelized": "envoc.contextMenu",
+        "dasherized": "envoc.context-menu",
+        "slugified": "envoc.context-menu",
+        "parts": [
+          "envoc.context",
+          "menu"
+        ]
+      },
+      "includeModuleDirectives": true,
+      "includeModuleFilters": false,
+      "includeModuleServices": true,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "librarySrcDirectory": "src/envoc.contextMenu",
+      "libraryUnitTestDirectory": "test/unit/envoc.contextMenu",
+      "libraryUnitE2eDirectory": "test/e2e/envoc.contextMenu"
+    }
+  }
+}
